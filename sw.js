@@ -1,4 +1,4 @@
-const CACHE = 'risale-v13';
+const CACHE = 'erisale-v1';
 const ASSETS = ['/oku/', '/oku/index.html', '/oku/manifest.json', '/oku/icon-192.png', '/oku/icon-512.png'];
 const SUPABASE_URL = 'https://gscwvypiamlzcgicaufv.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_jxAYf97Ybc1B16GEtDpg0w_-j2oszKm';
