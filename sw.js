@@ -1,7 +1,7 @@
 const CACHE = 'risale-v13';
 const ASSETS = ['/oku/', '/oku/index.html', '/oku/manifest.json', '/oku/icon-192.png', '/oku/icon-512.png'];
-const SUPABASE_URL = 'https://rrupsidrdgwgagetcojx.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_lQXYDZqUPATZNwM8Cb17kg_F-T1XsOI';
+const SUPABASE_URL = 'https://gscwvypiamlzcgicaufv.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_jxAYf97Ybc1B16GEtDpg0w_-j2oszKm';
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
